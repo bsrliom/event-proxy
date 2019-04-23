@@ -1,0 +1,33 @@
+{
+  "name": "event-proxy",
+  "version": "0.1.0",
+  "description": "proxy all event on document",
+  "main": "dist/event-proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "event-proxy"
+  ],
+  "author": "bsrli",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-transform-runtime": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "babel-loader": "^8.0.0-beta.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsrliom/event-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bsrliom/event-proxy/issues"
+  },
+  "homepage": "https://github.com/bsrliom/event-proxy#readme"
+}
